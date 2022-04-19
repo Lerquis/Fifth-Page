@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienes Raices</title>
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor contenido-header">
+        <div class="barra">
+          <a href="/"
+            ><img src="build/img/logo.svg" alt="Logotipo de bienes raices"
+          /></a>
+          <div class="mobile-menu">
+            <img src="build/img/barras.svg" alt="icono menu responsive" />
+          </div>
+          <div class="derecha">
+            <img
+              src="src/img/dark-mode.svg"
+              alt="dark mode"
+              class="dark-mode-boton"
+            />
+            <nav class="navegacion">
+              <a href="nosotros.html">Nosotros</a>
+              <a href="anuncios.html">Anuncios</a>
+              <a href="blog.html">Blog</a>
+              <a href="contacto.html">Contacto</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="contenedor seccion contenido-centrado">
+      <h1>Casa en venta frente al bosque</h1>
+      <picture>
+        <source srcset="build/img/destacada.webp" type="image/webp" />
+        <source srcset="build/img/destacada.jpg" type="image/jpeg" />
+        <img
+          src="build/img/destacada.jpg"
+          alt="Imagen de la propiedad"
+          loading="lazy"
+        />
+      </picture>
+      <div class="resumenPropiedad">
+        <p class="precio">$3,000,000</p>
+        <ul class="iconos-caracteristicas">
+          <li>
+            <img src="build/img/icono_wc.svg" alt="icono wc" loading="lazy" />
+            <p>3</p>
+          </li>
+          <li>
+            <img
+              src="build/img/icono_estacionamiento.svg"
+              alt="icono estacionamiento"
+              loading="lazy"
+            />
+            <p>3</p>
+          </li>
+          <li>
+            <img
+              src="build/img/icono_dormitorio.svg"
+              alt="icono habitaciones"
+              loading="lazy"
+            />
+            <p>4</p>
+          </li>
+        </ul>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          assumenda consequatur culpa quam quo dicta inventore dolores a aliquam
+          error asperiores minima, voluptatum quae, maxime vel molestias
+          voluptate sit. Eveniet dolor, debitis ea, nam nemo suscipit possimus
+          sequi facilis cupiditate mollitia soluta pariatur est repudiandae sunt
+          ut! Veniam, praesentium numquam dolorum, tenetur ab nisi eos magni,
+          exercitationem nam voluptas fugit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          rerum dolorum sunt in repudiandae libero, totam odit voluptates ad
+          velit aliquam architecto qui dolorem fugit?
+        </p>
+      </div>
+    </main>
+    <footer class="footer seccion">
+      <div class="contenedor contenedor-footer">
+        <nav class="navegacion">
+          <a href="nosotros.html">Nosotros</a>
+          <a href="anuncios.html">Anuncios</a>
+          <a href="blog.html">Blog</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </div>
+      <p class="copyright">Todos los derechos reservados 2021 &copy;</p>
+    </footer>
+    <script src="build/js/bundle.min.js"></script>
+  </body>
+</html>
